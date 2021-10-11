@@ -1,4 +1,24 @@
-# Vistas del pryecto
+# Vistas del proyecto
+
+## Vista de login
+
+![alt text](https://github.com/KevLeop/prueba-frontend/blob/main/src/images/login.png?raw=true)
+
+## Vista de Usuarios en HomeScreen
+
+![alt text](https://github.com/KevLeop/prueba-frontend/blob/main/src/images/prueba1.png?raw=true)
+
+## Diseño desponsivo
+
+## Routing
+
+### Routing en Pantalla de mensajes
+
+![alt text](https://github.com/KevLeop/prueba-frontend/blob/main/src/images/routing1.png?raw=true)
+
+### Routing en Pantalla de Perfil
+
+![alt text](https://github.com/KevLeop/prueba-frontend/blob/main/src/images/routing2.png?raw=true)
 
 # Getting Started with Create React App
 

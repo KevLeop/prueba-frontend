@@ -6,7 +6,7 @@ interface UserRequest {
 }
 
 // TODO: Integrate function to fetch auth data
-export const signin = async (userPayload: UserRequest): Promise<any> => {
+const signin = async (userPayload: UserRequest): Promise<any> => {
   const peticion = await fetch(`${environments.urlBackend}/signin`, {
     method: "POST",
     body: JSON.stringify(userPayload),
@@ -18,4 +18,4 @@ export const signin = async (userPayload: UserRequest): Promise<any> => {
   return data;
 };
 
-export {};
+export { signin };
