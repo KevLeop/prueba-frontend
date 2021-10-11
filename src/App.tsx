@@ -21,15 +21,15 @@ const theme = createTheme({
 const App: React.FC = () => {
   return (
     <ThemeProvider theme={theme}>
-      <Page>
-        <BrowserRouter>
+      <BrowserRouter>
+        <Page>
           <Switch>
             <Route component={ProfileScreen} path={Paths.PROFILE} />
             <Route component={MessagesScreen} path={Paths.MESSAGES} />
             <Route component={HomeScreen} path={Paths.HOME} />
           </Switch>
-        </BrowserRouter>
-      </Page>
+        </Page>
+      </BrowserRouter>
     </ThemeProvider>
   );
 };
