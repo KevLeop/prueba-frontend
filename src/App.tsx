@@ -6,6 +6,7 @@ import HomeScreen from "./modules/admin/home/home-screen";
 import MessagesScreen from "./modules/admin/messages/messages-screen";
 import { Paths } from "./modules/routes";
 import ProfileScreen from "./modules/admin/profile/profile-screen";
+import SignIn from "./modules/auth/signin";
 
 const theme = createTheme({
   palette: {
@@ -24,6 +25,7 @@ const App: React.FC = () => {
       <BrowserRouter>
         <Page>
           <Switch>
+            <Route component={SignIn} path={Paths.AUTH.SIGNIN} />
             <Route component={ProfileScreen} path={Paths.PROFILE} />
             <Route component={MessagesScreen} path={Paths.MESSAGES} />
             <Route component={HomeScreen} path={Paths.HOME} />

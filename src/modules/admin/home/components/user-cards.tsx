@@ -6,7 +6,6 @@ import {
   Button,
   Avatar,
 } from "@material-ui/core";
-import ClearIcon from "@material-ui/icons/Clear";
 
 const useStyles = makeStyles((theme) => ({
   page: {

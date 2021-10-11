@@ -47,9 +47,9 @@ const Navbar: React.FC<IOwnProps> = ({ toggleSideBar }) => {
         >
           <MenuIcon />
         </IconButton>
-        <Typography variant="h6" color="secondary">
+        {/* <Typography variant="h6" color="secondary">
           Title
-        </Typography>
+        </Typography> */}
       </Toolbar>
     </AppBar>
   );
