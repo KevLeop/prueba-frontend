@@ -1,3 +1,9 @@
+# Comandos de ejecución de proyecto
+
+### `yarn install`
+
+### `yarn start`
+
 # Vistas del proyecto
 
 ## Vista de login
@@ -8,9 +14,14 @@
 
 ![alt text](https://github.com/KevLeop/prueba-frontend/blob/main/src/images/prueba1.png?raw=true)
 
-## Diseño desponsivo
+## Diseño responsivo
+
+![alt text](https://github.com/KevLeop/prueba-frontend/blob/main/src/images/responsive%201.png?raw=true)
+![alt text](https://github.com/KevLeop/prueba-frontend/blob/main/src/images/responsive2.png?raw=true)
 
 ## Routing
+
+![alt text](https://github.com/KevLeop/prueba-frontend/blob/main/src/images/prueba1.png?raw=true)
 
 ### Routing en Pantalla de mensajes
 
